@@ -28,3 +28,16 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .example-tooltip-black{
     background: black;
 }
+
+.text-align-left{
+    text-align: left;
+}
+.main-panel{
+    background-color: gold;
+
+}
+
+.custom-panel {
+   
+
+}

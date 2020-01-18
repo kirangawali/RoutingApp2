@@ -2,7 +2,8 @@ import { NgModule,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 //import { CommonModule } from '@angular/common';
 import { MatButtonModule, 
           MatToolbarModule,         
-          MatInputModule 
+          MatInputModule ,
+          MatDialogModule
             } from '@angular/material';
             import {MatFormFieldModule} from '@angular/material/form-field';
           import {MatMenuModule} from '@angular/material/menu'; 
@@ -10,6 +11,7 @@ import { MatButtonModule,
           import {MatSelectModule} from '@angular/material/select'; 
           import {MatRadioModule} from '@angular/material/radio'; 
           import {MatTooltipModule} from '@angular/material/tooltip'; 
+          
           import {MatCheckboxModule} from '@angular/material/checkbox'; 
 
 const material = [
@@ -23,7 +25,8 @@ const material = [
   MatRadioModule,
   MatTooltipModule,
   MatCheckboxModule,
-  MatNativeDateModule
+  MatNativeDateModule,
+  MatDialogModule
 ];
 
 @NgModule({

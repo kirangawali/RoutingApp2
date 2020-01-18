@@ -12,7 +12,8 @@
                 <div class="input-group mb-3">   
                  
                     <input type="text" class="form-control" placeholder="Username"  
-                            name="userNameDisplay"
+                            name="userNameDisplay" 
+                            autocomplete="off"
                             required
                             [(ngModel)]="signupModelForm.userName"
                             #userName="ngModel"
@@ -97,7 +98,7 @@
               </div>  
 
               
-              <button type="submit"  [disabled] = "signIn.form.invalid" class="btn btn-block btn-success">Sign Up</button>  
+              <button type="submit"  [disabled] = "signIn.form.invalid" class="btn btn-block btn-success" (click)="addUser()">Sign Up</button>  
             </div>
             </form>  
           </div>  

@@ -10,7 +10,7 @@ import { SignIn } from '../sign-in';
 export class GmailComponent implements OnInit {
 
   
-  signupModelForm = new SignIn('','','','','','','');
+  signupModelForm = new SignIn('','','','','','','','');
 
   userType : any = ['Admin','Student','Trainer'];
   constructor() { }

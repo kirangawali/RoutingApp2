@@ -1,6 +1,7 @@
 export class SignIn {
 
     constructor(
+        public _id : any,
         public  userName :string,
         public  loginName :string,
         public  password :string,
